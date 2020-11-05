@@ -2,6 +2,20 @@
   "name": "@mirailabs/fiona",
   "version": "0.0.2",
   "description": "Functional programming support for JS",
+  "author": "Preetam D'Souza",
+  "license": "Apache-2.0",
+  "keywords": [
+    "functional",
+    "fp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirailabs/fiona.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mirailabs/fiona/issues"
+  },
+  "homepage": "https://github.com/mirailabs/fiona#readme",
   "main": "./dist/fiona",
   "files": [
     "dist"
@@ -11,12 +25,6 @@
     "test": "jest",
     "release": "standard-version"
   },
-  "keywords": [
-    "functional",
-    "fp"
-  ],
-  "author": "Preetam D'Souza",
-  "license": "Apache-2.0",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",

@@ -23,7 +23,9 @@
   "scripts": {
     "build": "babel fiona.js --out-dir dist",
     "test": "jest",
-    "release": "standard-version"
+    "clean": "rm -rf dist",
+    "release": "standard-version",
+    "prepare": "npm run clean && npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",

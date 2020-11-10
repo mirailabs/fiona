@@ -149,6 +149,7 @@ export {
   partition,
   range,
   cat,
+  split,
   append,
   nth,
   first,

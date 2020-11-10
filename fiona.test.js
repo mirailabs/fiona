@@ -6,6 +6,7 @@ import {
   partition,
   range,
   cat,
+  split,
   append,
   nth,
   first,
@@ -65,6 +66,17 @@ test("range", () => {
 test("cat", () => {
   expect(cat("", "")).toEqual("");
   expect(cat("abc", "def")).toEqual("abcdef");
+});
+
+test("split", () => {
+  expect(split("", "abc")).toEqual(["a", "b", "c"]);
+  expect(split(" ", "A faint clap of thunder")).toEqual([
+    "A",
+    "faint",
+    "clap",
+    "of",
+    "thunder",
+  ]);
 });
 
 test("append", () => {

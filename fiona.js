@@ -138,6 +138,7 @@ export {
   pipe,
   comp,
   identity,
+  constant,
   map,
   reduce,
   not,

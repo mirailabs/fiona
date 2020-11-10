@@ -1,4 +1,5 @@
 import {
+  constant,
   every,
   some,
   take,
@@ -12,6 +13,14 @@ import {
   first,
   second,
 } from "./fiona";
+
+test("constant", () => {
+  expect(constant(1)(null)).toBe(1);
+  expect(constant(1)("blah")).toBe(1);
+  expect(constant("thunder")(42)).toBe("thunder");
+  const a = [1, 2, 3];
+  expect(constant(a)(42)).toBe(a);
+});
 
 test("every", () => {
   const isOdd = (x) => x % 2 !== 0;

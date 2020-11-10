@@ -148,6 +148,7 @@ export {
   drop,
   partition,
   range,
+  append,
   nth,
   first,
   second,

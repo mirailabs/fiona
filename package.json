@@ -1,6 +1,6 @@
 {
   "name": "@mirailabs/fiona",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Functional programming support for JS",
   "author": "Preetam D'Souza",
   "license": "Apache-2.0",
